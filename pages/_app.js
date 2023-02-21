@@ -1,4 +1,4 @@
-import MainLayout from '@/layouts/main';
+import MainLayout from '@/layouts/MainLayout';
 import '@/styles/globals.css';
 import Head from 'next/head';
 
