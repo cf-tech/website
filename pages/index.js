@@ -1,6 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
-export default function Home() {
+export default function Home()
+{
   return (
     <>
       <Head>
@@ -11,9 +12,7 @@ export default function Home() {
       </Head>
       <div>
         <h1 className="text-2xl">Under Construction!</h1>
-
       </div>
-
     </>
-  )
+  );
 }

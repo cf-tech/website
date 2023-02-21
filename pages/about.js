@@ -1,8 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
-
-
-export default function About() {
+export default function About()
+{
     return (
         <>
             <Head>
@@ -13,8 +12,6 @@ export default function About() {
             </Head>
             <h1 className="text-4xl text-center">About Us</h1>
             <h1 className="text-2xl">Under Construction!</h1>
-
-
         </>
-    )
+    );
 }

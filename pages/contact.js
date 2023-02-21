@@ -1,8 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
-
-
-export default function Contact() {
+export default function Contact()
+{
     return (
         <>
             <Head>
@@ -13,8 +12,6 @@ export default function Contact() {
             </Head>
             <h1 className="text-4xl text-center">Contact Us</h1>
             <h1 className="text-2xl">Under Construction!</h1>
-
-
         </>
-    )
+    );
 }

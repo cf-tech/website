@@ -1,8 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
-
-
-export default function Testimonals() {
+export default function Testimonals()
+{
     return (
         <>
             <Head>
@@ -13,8 +12,6 @@ export default function Testimonals() {
             </Head>
             <h1 className="text-4xl text-center">Our Clients</h1>
             <h1 className="text-2xl">Under Construction!</h1>
-
-
         </>
-    )
+    );
 }

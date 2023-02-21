@@ -1,4 +1,5 @@
-export default function MainLayout({ children }) {
+export default function MainLayout({ children })
+{
   return (
     <>
       <main>
@@ -31,6 +32,7 @@ export default function MainLayout({ children }) {
             </div>
           </div>
         </nav>
+
         {children}
 
         <footer className="p-1 bg-gray-900 rounded-md shadow md:px-6 md:py-1 dark:bg-gray-900">
@@ -43,5 +45,5 @@ export default function MainLayout({ children }) {
         </footer>
       </main>
     </>
-  )
+  );
 }
