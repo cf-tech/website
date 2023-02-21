@@ -5,8 +5,8 @@ export default function MainLayout({ children }) {
 
         <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
           <div className="container flex flex-wrap items-center justify-between mx-auto">
-            <a href="https://cf-tech.dev/" className="flex items-center">
-              <img src="/images/Logo.png" className="h-8 mr-3 sm:h-9" alt="CF Technologies logo" />
+            <a href="/" className="flex items-center">
+              <img src="/images/logo.png" className="h-8 mr-3 sm:h-9" alt="CF Technologies logo" />
               <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-yellow-300">CF Technologies</span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-yellow-500 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -36,8 +36,8 @@ export default function MainLayout({ children }) {
         <footer className="p-1 bg-gray-900 rounded-md shadow md:px-6 md:py-1 dark:bg-gray-900">
           <hr className="my-1 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="container  items-center text-center justify-between mx-auto">
-            <span className="block text-sm text-yellow-200 sm:text-center dark:text-yellow-200"><img className="h-8 max-w-lg mx-auto" src="/images/Logo.png" alt="CF Technologies Logo" />©
-              <a href="https://cf-tech.dev/" className="hover:underline object-right items-center"> CF Technologies</a> 2023. All Rights Reserved.
+            <span className="block text-sm text-yellow-200 sm:text-center dark:text-yellow-200"><img className="h-8 max-w-lg mx-auto" src="/images/logo.png" alt="CF Technologies Logo" />©
+              <a href="/" className="hover:underline object-right items-center"> CF Technologies</a> 2023. All Rights Reserved.
             </span>
           </div>
         </footer>
