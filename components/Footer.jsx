@@ -1,3 +1,5 @@
+import { FaRocket } from 'react-icons/fa';
+
 const Footer = () =>
 {
     const year = new Date().getFullYear();
@@ -7,7 +9,7 @@ const Footer = () =>
             <hr className="my-1 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div className="container  items-center text-center justify-between mx-auto">
                 <span className="block text-sm text-yellow-200 sm:text-center dark:text-yellow-200">
-                    <img className="h-8 max-w-lg mx-auto" src="/images/logo.png" alt="CF Technologies Logo" />
+                    <FaRocket className="block w-4 h-4 mx-auto" />
                     CF Technologies &copy; {year}
                 </span>
             </div>
