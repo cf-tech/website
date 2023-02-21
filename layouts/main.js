@@ -22,7 +22,7 @@ export default function MainLayout({ children }) {
                   <a href="/about" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-200 md:p-0 dark:text-gray-400 md:dark:hover:text-yellow-200 dark:hover:bg-gray-700 dark:hover:text-yellow-200 md:dark:hover:bg-transparent">About</a>
                 </li>
                 <li>
-                  <a href="/testimonials" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-200 md:p-0 dark:text-gray-400 md:dark:hover:text-yellow-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Testimonials</a>
+                  <a href="/testimonials" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-200 md:p-0 dark:text-gray-400 md:dark:hover:text-yellow-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Clients</a>
                 </li>
                 <li>
                   <a href="/contact" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-200 md:p-0 dark:text-gray-400 md:dark:hover:text-yellow-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
@@ -33,6 +33,14 @@ export default function MainLayout({ children }) {
         </nav>
         {children}
 
+        <footer className="p-1 bg-gray-900 rounded-md shadow md:px-6 md:py-1 dark:bg-gray-900">
+          <hr className="my-1 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          <div className="container  items-center text-center justify-between mx-auto">
+            <span className="block text-sm text-yellow-200 sm:text-center dark:text-yellow-200"><img className="h-8 max-w-lg mx-auto" src="/images/Logo.png" alt="CF Technologies Logo" />©
+              <a href="https://cf-tech.dev/" className="hover:underline object-right items-center"> CF Technologies</a> 2023. All Rights Reserved.
+            </span>
+          </div>
+        </footer>
       </main>
     </>
   )

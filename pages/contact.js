@@ -11,6 +11,7 @@ export default function Contact() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+            <h1 className="text-4xl text-center">Contact Us</h1>
             <h1 className="text-2xl">Under Construction!</h1>
 
 
