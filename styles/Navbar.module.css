@@ -1,8 +1,8 @@
 .NavLink {
-    @apply block py-2 pl-3 pr-4 md:p-0 rounded;
-    @apply text-gray-600 md:border-0 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-200;
+    @apply block py-2 pl-3 pr-4 md:p-0 rounded bg-gray-900;
+    @apply text-gray-100 md:border-0 bg-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-300;
 }
 
 .NavLink.active {
-    @apply text-gray-800;
+    @apply text-yellow-300;
 }
