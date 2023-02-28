@@ -6,7 +6,7 @@ export default function MainLayout({ children })
   return (
     <>
       <Navbar />
-      <main>{children}</main>
+      <main className="font-mono text-gray-900">{children}</main>
       <Footer />
     </>
   );
