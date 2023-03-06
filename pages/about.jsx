@@ -7,7 +7,7 @@ const AboutPage = () =>
                 <h1 className="text-4xl p-5 text-center font-bold">About Us</h1>
             </div>
 
-            <div className="md:px-40 p-5" >
+            <div className="p-5" >
                 <p className="p-6 text-2xl text-center">At CF technologies, we offer software development services, including web application development, mobile applications and desktop experiences. <br /> <br />
                     Our offices are physically located in London, GB but we work with a variety of companies across the globe!
                 </p>
